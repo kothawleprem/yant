@@ -1,0 +1,128 @@
+.background-blur {
+  position: relative;
+  height: 28rem; 
+  background-color: rgb(192, 13, 199);
+  border-radius: 100%; 
+  filter: blur(180px); 
+  z-index: 1; 
+}
+
+.highlighted-text {
+    color: yellow;
+}
+
+.card {
+    position: relative;
+    margin-top: -20%;
+    background-color: #2B243C;
+    z-index: 1; 
+}
+
+.email-from {
+    position: absolute;
+    z-index: 2;
+}
+
+.email-input {
+    width: 40%;
+}
+
+.email-input-box {
+    border-radius: 50px;
+    font-family: 'PT Serif', serif;
+}
+
+.email-input-button {
+    border-radius: 300px;
+    background-color: white;
+    font-family: 'PT Serif', serif;
+}
+
+.icon-hero-phone {
+    position: absolute;
+    left: 4%;
+}
+
+.icon-hero-cloud {
+    position: absolute;
+    left: 12%;
+    top: 35%;
+}
+
+.icon-hero-files {
+   position: absolute;
+   left: 0%; 
+   top: 50%;
+}
+
+.icon-hero-pencil {
+   position: absolute;
+   left: 22%; 
+   top: 70%;
+}
+
+.icon-hero-magnigier {
+   position: absolute;
+   left: 85%; 
+   top: 15%;
+}
+
+.icon-hero-share {
+    position: absolute;
+    left: 80%; 
+    top: 40%;
+}
+
+.icon-hero-message {
+    position: absolute;
+    left: 90%; 
+    top: 70%;
+}
+
+.icon-hero-lock {
+    position: absolute;
+    left: 72%; 
+    top: 60%;
+}
+
+/* Text Styles */
+.hero-title,
+.hero-subtitle,
+.card-title,
+.card-subtitle,
+.card-text {
+  font-family: 'PT Serif', serif;
+}
+
+
+/* Media Queries */
+
+/* Small screens */
+@media (max-width: 600px) {
+  .email-input {
+    width: 75%;
+}
+    .card {
+        margin-top: -100%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+/* Medium screens */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .card {
+        margin-top: -50%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+/* Large screens */
+@media (min-width: 1025px) {
+  .container {
+    padding: 30px;
+  }
+
+  /* Additional styles for large screens go here */
+}
